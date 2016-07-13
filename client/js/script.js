@@ -10,6 +10,6 @@ function choosePic() {
 		console.log(img);
 		document.getElementsByTagName('div')[0].appendChild(img);
 	}};
-	xhttp.open("GET", "//random_restaurant", true);
+	xhttp.open("GET", "/random_restaurant", true);
 	xhttp.send();	
 } 
